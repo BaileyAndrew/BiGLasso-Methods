@@ -1,0 +1,9 @@
+[submodule "EiGLasso"]
+	path = EiGLasso
+	url = https://github.com/SeyoungKimLab/EiGLasso
+[submodule "teralasso"]
+	path = teralasso
+	url = https://github.com/kgreenewald/teralasso
+[submodule "DNNLasso"]
+	path = DNNLasso
+	url = https://github.com/YangjingZhang/DNNLasso
