@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "BiGLasso-Methods"
+version = "1.0.0"
+description = "An Python wrapper for Matlab-based bigraphical methods."
+authors = [
+    { name = "Bailey Andrew", email = "sceba@leeds.ac.uk" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    # "Programming Language :: Python :: 3.12", # GmGM does not support 3.12
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.9,<3.12" # Oldest supported python version with GmGM
+dependencies = [
+    "GmGM",
+    "matlabengine"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BaileyAndrew/BiGLasso-Methods"
+"Bug Tracker" = "https://github.com/BaileyAndrew/BiGLasso-Methods/issues"

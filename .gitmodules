@@ -7,3 +7,9 @@
 [submodule "DNNLasso"]
 	path = DNNLasso
 	url = https://github.com/YangjingZhang/DNNLasso
+[submodule "BiGLasso_Methods/teralasso"]
+	path = BiGLasso_Methods/teralasso
+	url = https://github.com/kgreenewald/teralasso
+[submodule "BiGLasso_Methods/DNNLasso"]
+	path = BiGLasso_Methods/DNNLasso
+	url = https://github.com/YangjingZhang/DNNLasso
